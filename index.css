@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.general {
+  width: 100%;
+  height: 33rem;
+  background: hsl(228, 45%, 44%);
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+.first {
+  background: #fff;
+  width: 35%;
+  height: 100vh;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+.first img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.first h2 {
+  text-align: center;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 15px;
+}
+.first p {
+  text-align: center;
+  font-size: 13px;
+  color: #333;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+@media (min-width: 400px) and (max-width: 420px) {
+  .first {
+    width: 100%;
+    height: 75vh;
+  }
+  .first h2 {
+    font-size: 17px;
+  }
+}
+@media (min-width: 421px) and (max-width: 440px) {
+  .first {
+    width: 100%;
+    height: 75vh;
+  }
+  .first h2 {
+    font-size: 18px;
+  }
+  .first p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 441px) and (max-width: 470px) {
+  .first {
+    width: 100%;
+    height: 85vh;
+  }
+  .first h2 {
+    font-size: 20px;
+  }
+  .first p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 471px) and (max-width: 480px) {
+  .general {
+    padding: 4rem;
+    height: 40rem;
+  }
+  .first {
+    width: 100%;
+    height: 102vh;
+  }
+  .first h2 {
+    font-size: 25px;
+  }
+  .first p {
+    font-size: 20px;
+  }
+}
